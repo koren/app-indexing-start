@@ -1,0 +1,31 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+
+    defaultConfig {
+        applicationId "com.recipe_app"
+        minSdkVersion 23
+        targetSdkVersion 28
+        versionCode 2
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:support-v13:28.0.0'
+    implementation 'com.android.support:support-v4:28.0.0'
+    implementation 'com.google.firebase:firebase-appindexing:16.0.1'
+    implementation group:'com.squareup.picasso', name:'picasso', version:'2.3.2'
+    implementation 'com.readystatesoftware.sqliteasset:sqliteassethelper:+'
+    implementation 'com.google.firebase:firebase-core:16.0.1'
+}
+
+apply plugin: 'com.google.gms.google-services'

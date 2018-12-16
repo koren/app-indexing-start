@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "613205350191",
+    "firebase_url": "https://testindex-87b97.firebaseio.com",
+    "project_id": "testindex-87b97",
+    "storage_bucket": "testindex-87b97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613205350191:android:35b4311d991efce8",
+        "android_client_info": {
+          "package_name": "com.example.korenl.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613205350191-24gsf1cj85jopj0t01k3hask2dgubd0t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsMeLuRbhONUoWnov55T3__3XtFe99VrM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613205350191:android:7dbd01deca5a46dd",
+        "android_client_info": {
+          "package_name": "com.recipe_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613205350191-24gsf1cj85jopj0t01k3hask2dgubd0t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsMeLuRbhONUoWnov55T3__3XtFe99VrM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
